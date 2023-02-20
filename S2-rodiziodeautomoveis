@@ -1,0 +1,28 @@
+Rodízio de automóveis
+
+ Para isso, emitem regras que associam o final da placa do veículo ao um dia da semana em que o veículo não deve circular pois, se o fizer, vai receber multa. Alguns aplicativos permitem que você informe a placa de seu veículo, já notou? Como será que fazem?
+ Seu programa deve ler um inteiro que corresponde ao número da placa de um veículo, e informar em qual dia da semana aquele veículo não deve circular.
+
+As regras são:
+
+Na segunda-feira não devem circular carros com final 1 e 2Na terça-feira não devem circular carros com final 3 e 4Na quarta-feira não devem circular carros com final 5 e 6Na quinta-feira não devem circular carros com final 7 e 8Na sexta-feira não devem circular carros com final 9 e 0
+
+Entrada
+
+Uma linha com um valor inteiro entre 0 e 9999
+
+- resposta:
+
+placa=int(input(''))
+val = placa % 10
+
+if  val == 1 or val == 2:
+    print('segunda-feira')
+elif  val == 3 or val == 4:
+    print('terça-feira')
+elif  val == 5 or val == 6:
+    print('quarta-feira')
+elif  val == 7 or val == 8:
+    print('quinta-feira')
+else:
+    print('sexta-feira')

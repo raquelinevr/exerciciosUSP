@@ -1,0 +1,24 @@
+Valores Romanos
+Seu programa deve ler uma letra e verificar a qual algarismo romano ela corresponde. 
+Garante-se que apenas um dos seguintes valores será fornecido como entrada: I, V, X, L, C, D, M
+Entrada
+Uma linha com uma letra
+Saída
+Um linha com um valor inteiro
+
+nr=input('letra ')
+if nr == 'I':
+    print('1')
+if nr == 'V':
+    print('5')
+if nr == 'X':
+    print('10')
+if nr == 'L':
+    print('50')
+if nr == 'C':
+    print('100')
+if nr == 'D':
+    print('500')
+if nr == 'M':
+    print('1000')
+

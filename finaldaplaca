@@ -1,0 +1,18 @@
+Final da placa
+
+Para promover o rodízio da circulação de veículos, algumas cidades definem regras que associam o final da placa do veículo ao um dia da semana em que o veículo não deve circular.
+
+Alguns aplicativos permitem que você informe a placa de seu veículo e você resolveu investigar como faria isso em um programa. 
+
+Seu programa deve ler um inteiro que corresponde aos dígitos da placa de um veículo, e verificar qual é o último dígido daquela placa.  
+
+Entrada
+
+Um valor inteiro entre 0 e 9999
+
+- resposta: 
+
+placa=int(input('placa '))
+val = placa % 10
+
+print(val)
